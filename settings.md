@@ -72,7 +72,7 @@ Enables automatic saving of SSIDs, device names and settings.
 Time interval for automatic saving in milliseconds.  
 
 ## DISPLAY-INTERFACE
-`bool displayInterface = false;`  
+`bool displayInterface = true;`  
 Enables display interface.  
 
 ## DISPLAYTIMEOUT
@@ -93,7 +93,7 @@ Enables echo for each incoming message over serial.
 Enables web interface.  
 
 ## WEB-SPIFFS
-`bool webSpiffs = false`  
+`bool webSpiffs = true`  
 Enables SPIFFS for all web files.  
 Can lead to longer loading times but it nice if you need to edit the web files regularly.  
 
